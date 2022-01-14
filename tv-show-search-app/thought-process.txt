@@ -1,0 +1,44 @@
+LECTURE OVERVIEW:
+What are APIs?
+APIs are basically what we call as endpoints for using the application
+We can use APIs to make requests: most common usecase.
+Returns a JSON object, (which is a string) need to be parsed
+We can also specify search queries and headers.
+
+The entire process is made easier using axios
+
+Axios: A library for making HTTP requests: 
+APIs => They return just the data in Json/XML (mostly json)
+
+
+PROJECT GOAL:
+Okay so, we just type the name of the show and then
+the API returns some data and then we use that
+data to show the images (Since we are not using an ID),
+multiple results will be returned. 
+
+I want this to be interactive i.e, as the user types,
+The responses update. When the user hasn't typed anything,
+clear the page. So update accordinly.
+
+I also want to design a nice interface for this project. (2nd Stage)
+
+
+LET'S GET STARTED:
+STEP 1: See what data is being returned from our movies API using Postman 
+
+(Done)
+
+STEP 2: Fetch Data using axios 
+
+STEP 3: Parse Data to get all the images
+
+STEP 4: Add logic for displaying and removing images
+
+STEP 5: Debounce
+Make a request only when a user is done typing / when he
+hasn't typed for a certain time
+
+
+
+

@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #363636;
+}
+
+
+.container {
+    width: 40%;
+}
+
+.score-header {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.score-header-title h1 {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0 16px;
+}
+
+.score-header-img img {
+    width: 100%;
+}
+
+
+.score-content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: -5px 0 5px -5px rgba(0,0,0,0.2), 5px 0 5px -5px rgba(0,0,0,0.2);
+    padding: 24px;
+}
+
+.score-show h2{
+    font-size: 48px;
+    margin: 0 0 4px;
+}
+
+.score-instruction p {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.score-picker label {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.score-picker select {
+    padding: 7px 5px 7px 16px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #dbdbdb;
+}
+
+.score-picker select:hover {
+    border-color: #b5b5b5;
+}
+
+.score-picker select:focus {
+    border-color: #3273dc;
+    box-shadow: 0 0 0 0.125em rgb(50 115 220 / 25%);
+}
+
+.score-buttons {
+    display: flex;
+}
+
+.score-buttons button {
+    font-family: inherit;
+    color: #fff;
+    padding: 12px;
+    font-size: 24px;
+    border-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+}
+
+#buttonOne {
+    background-color: #00D1B2;
+}
+
+#buttonOne:hover {
+    background-color: #00c4a7;
+}
+
+#buttonTwo {
+    background-color: #3298DC;
+}
+
+#buttonTwo:hover {
+    background-color: #2793da;
+}
+
+#buttonReset {
+    background-color: #F14668;
+}
+
+#buttonReset:hover {
+    background-color: #f03a5f;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.success {
+    color: #48c774;
+}
+
+.loss {
+    color: #f14668;
+}

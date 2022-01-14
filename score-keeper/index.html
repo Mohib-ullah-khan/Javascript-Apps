@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="score-header">
+            <div class="score-header-img">
+                <img src="imgs/table-tennis.jpg" alt="">
+            </div>
+            
+            <div class="score-header-title">
+                <h1>Ping Pong Score Keeper</h1>
+            </div>
+        </div>
+
+
+        <div class="score-content">
+            <div class="score-show">
+                <h2 id="score"><span>0</span> to <span>0</span></h2>
+            </div>
+
+            <div class="score-instruction">
+                <p>Use the buttons below to keep score.</p>
+            </div>
+
+            <div class="score-picker">
+                <label for="score-select">Playing To</label>
+                <select name="maxScore" id="score-select">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="score-buttons">
+            <button id="buttonOne">+1 Player One</button>
+            <button id="buttonTwo">+1 Player Two</button>
+            <button id="buttonReset">Reset</button>
+        </div>
+    </div>
+    
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
